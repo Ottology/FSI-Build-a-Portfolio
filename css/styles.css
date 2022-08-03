@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     color: blue;
 }
@@ -5,3 +6,61 @@ body {
 h1 {
     background-color:green;
     }
+=======
+/* Universal Selector */
+
+* {
+    background-color: lightblue;
+    cursor: url(../images/cursor.png), pointer;
+}
+
+
+/* Attribute Selector */
+
+[src] {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+
+/* Element Selector */
+
+h1,
+h2 {
+    text-align: center;
+}
+
+ul li {
+    font-size: 24px;
+    color: rgb(139, 108, 113);
+    list-style: upper-roman inside;
+    text-align: center;
+}
+
+
+/* Class Selector */
+
+.section-font {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.about-me {
+    font-family: cursive;
+}
+
+
+/* ID Selector */
+
+#myfav {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+    border-color: rgb(104, 27, 40);
+    border-style: solid;
+    border-width: 5px;
+}
+>>>>>>> a7e36a5c330ea66b12e3ed6f3482fa2418daa884
