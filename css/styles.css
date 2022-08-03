@@ -1,16 +1,7 @@
-<<<<<<< HEAD
-body {
-    color: blue;
-}
-
-h1 {
-    background-color:green;
-    }
-=======
 /* Universal Selector */
 
 * {
-    background-color: lightblue;
+    background-color: gray;
     cursor: url(../images/cursor.png), pointer;
 }
 
@@ -20,7 +11,7 @@ h1 {
 [src] {
     display: block;
     margin: 0 auto;
-    border-radius: 50%;
+    border-radius: 40%;
 }
 
 
@@ -49,7 +40,6 @@ ul li {
     font-family: cursive;
 }
 
-
 /* ID Selector */
 
 #myfav {
@@ -63,4 +53,3 @@ ul li {
     border-style: solid;
     border-width: 5px;
 }
->>>>>>> a7e36a5c330ea66b12e3ed6f3482fa2418daa884
